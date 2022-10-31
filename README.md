@@ -1,6 +1,6 @@
 # liquibase-github-action
 
-Official Github Action to run Liquibase in your pipeline.
+Official Github Action to run Liquibase in your pipeline. Modified to use custom liquibase.properties file, and Redshift JDBC driver. 
 
 ### Usage
 
