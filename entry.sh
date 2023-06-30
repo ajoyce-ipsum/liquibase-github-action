@@ -213,7 +213,7 @@ function validate_operation() {
 }
 
 check_optional_param "$OPERATION" proLicenseKey $PROLICENSEKEY
-check_optional_param "$OPERATION" hubApiKey $HUBAPIKEY
+# check_optional_param "$OPERATION" hubApiKey $HUBAPIKEY
 check_optional_param "$OPERATION" licenseKey $LICENSEKEY
 validate_operation
 
